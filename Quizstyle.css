@@ -1,0 +1,177 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+   }
+
+   .bgimg{
+    background-image: url(quiz.2.jpg); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.9;
+    
+   }
+
+   .container{
+
+    width:max-content 1000px;
+    height: 700px;
+    margin: 20px auto;
+    
+   }
+
+
+   h1{
+    width: 100%;
+    text-align: center;
+    color: white;
+    background-color: black;
+   }
+
+   .quizsection{
+    width: 80%;
+    height: 80%;
+    /*background-color: powderblue ;*/
+    /*background-color: #000c14 #f8002f;
+    background-image: linear-gradient( #6d6dd2, #91eae4);*/
+    background-image: linear-gradient( #91221e, #030202);
+    opacity: 0.9;
+    margin: 1px auto;
+    display:flex ;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   }
+   
+
+   #main{
+    position: absolute;
+    left: 20%;
+    opacity: 0%;
+    transition: 3s;
+   }
+   
+
+   #que{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight:600;
+    font-style:normal;
+    color: white;
+    margin: 20px;
+    
+   }
+
+   #opt{
+    color: white;
+    font-size: large;
+    font-weight: bolder;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+   }
+
+  /* #nxt{
+    font-size: medium;
+    width: 50px;
+    height: 30px;
+    color: white;
+    background-color: blue;
+    margin: 20px;
+   }*/
+   
+   #confirm{
+    font-size: medium;
+    width: 70px;
+    height: 30px;
+    color: white;
+    background-color: blue;
+    margin: 20px;
+   }
+
+   #start{
+    width: 25%;
+    height:max-content 20%;
+    font-size:xx-large;
+    font-weight: bolder;
+    opacity: 100%;
+    transition: opacity 2s;
+    position: absolute;
+    top: 40%;
+   }
+   .finalans{
+    margin-left: 20px;
+    font-size: larger;
+    color: white;
+    font-weight: bolder;
+    
+   }
+   #ans{
+    font-size: large;
+    font-weight:600;
+    text-align: center;
+    text-transform: uppercase;
+    color: darkblue;
+    height: 30px;
+    width: 50px;
+    background-color:lightcoral ;
+    border: 2px solid wheat;
+    border-radius: 5px;
+   }
+
+   .scorecs{
+    width: 200px;
+    height: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border: 1px solid black;
+    border-radius: 6px;
+    font-size: larger;
+    text-align: center;
+    font-size: x-large;
+    font-weight: bold;
+    color: darkblue;
+    background-color: indianred;
+    margin-left: 20px;
+
+   }
+
+   .score{
+    font-weight: bolder;
+    font-size: larger;
+   }
+
+   #time{
+    width: 150px;
+    height: 40px;
+    color: blue;
+    background-color: lightblue;
+    border: 0.5px solid blue;
+    border-radius: 3px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: medium;
+    font-weight: bold;
+    position: relative;
+    left: 600px;
+    bottom: 450px;
+   }
+
+   #timeleft{
+    width: 40px;
+    height: 30px;
+    color: white;
+    background-color: black;
+    border: 0.5px solid black;
+    border-radius: 5px;
+    margin-left: 10px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   }
